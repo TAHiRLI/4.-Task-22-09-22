@@ -1,0 +1,207 @@
+/* width config */
+.w-100{
+    width: 100%;
+}
+.w-80{
+    width: 80%;
+}
+/* =============== */
+
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+/* text config */
+.text-center{
+    text-align: center;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: rgba(255, 255, 255, 1) ;
+}
+.text-gray{
+    color: gray;
+}
+.text-orange{
+    color: #f4623a;
+}
+
+/* ========== */
+
+/* margin config */
+.mg-auto{
+    margin: auto;
+}
+.mgT-10{
+    margin-top: 10px;
+}
+.mgT-40{
+    margin-top: 40px;
+}
+.mgTB-100{
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+}
+.mgT-255{
+    margin-top: 255px;
+}
+
+/* ========= */
+
+/* background config */
+.bg-orange{
+    background-color: #f4623a;
+}
+.bg-white{
+    background-color: white;
+}
+
+/* =============== */
+
+
+/* custom config  */
+.title1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.title2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.title3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.desc{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.underline{
+    margin: 30px auto;
+    width: 70px;
+    height: 5px;
+   
+}
+.card{
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+    margin-top: 40px;
+    height: 40vh;
+    
+}
+
+/* =============== */
+
+/* GLOBALS */
+
+a{
+    text-decoration: none;
+    transition: 0.25s;
+    
+
+}
+
+button{
+    margin: 20px;
+    padding: 25px 40px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 20px;
+    background-color: white;
+}
+/*================== */
+
+/* Header css */
+
+header{
+    
+    background-image:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+
+}
+nav{
+    position: fixed;
+    height: 10vh;    
+    padding: 3vh 10%;
+    
+}
+
+#logo{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+ nav li {
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+ nav li a{
+    font-weight: 700;
+}
+ nav a:hover  {
+    color: #f4623a;
+
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+}
+
+/* ================ */
+
+/* services */
+#services i{
+    font-size: 80px;
+    margin: 20px;
+}
+
+/* ================ */
+
+/* Photos */
+.bg-photo{
+    width: 33.3%;
+    height: 34vh;
+    background-size: 100%;
+}
+.pic-color{
+    padding-top: 80px;
+    background-color: #f4623a;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+ .pic-color:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* =============== */
