@@ -1,8 +1,8 @@
 /* Globals */
 a{
- 
+    color: white;
     font-size: 14px;
-    font-weight: 400    ;
+    font-weight: 700    ;
     text-decoration: none;
     transition: 0.35s;
 
@@ -38,6 +38,9 @@ button{
     display: block;
     color: white;
     font-weight: bold;
+}
+.title1{
+    font-size: 24px;
 }
 /* ================ */
 
@@ -110,7 +113,7 @@ input::placeholder{
     line-height: 7vh;
 }
 #social-media{
-    margin-right: 15%;
+    margin:  6vh 15%;
 
     font-size: 14px;
     font-weight: bold;
@@ -131,20 +134,21 @@ a:hover i{
 
 
 /* carusel  */
-.cards{
+#cards{
     padding-left: 3%;
 
 }
 
 .card{
-    padding: 30px;
-    margin: 0 1%;
+  
+    margin-right: 2%;
     width: 23%;
-    height: 55vh;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .pic-info{
-    margin-top: 130%;
+    height: 35vh;
+    margin-top: 120%;
 }
 .film-name:hover {
     color:  #dcf836;
@@ -154,13 +158,58 @@ a:hover i{
 
 /* ================ */
 
-/* films  */
+/* main films  */
 
 #films{
     height: 120vh;
 }
 
+#films li {
+    margin-right: 10px ;
+    
+}
+.cards{
+    float: left;
+    width: 100%;
+
+}
+
+.pic-info-small{
+    transition: 0.75s;
+    opacity: 0;
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(30, 30, 30, 0.7);
+
+}
+#films .card:hover .pic-info-small{
+    opacity: 1;
+
+}
+.card-button{
+    font-size: 12px;
+    margin: 15vh 0 5vh;
+    z-index: 5;
+}
 
 /* ================ */
+
+
+
+/* spot celebrities */
+
+#spotlight{
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.celebrity{
+    width: 100%;
+    height: 70px;
+}
+
+
+
+/* ============= */
 
 
