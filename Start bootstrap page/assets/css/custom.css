@@ -1,0 +1,87 @@
+/* width config */
+.w-100{
+    width: 100%;
+}
+.w-80{
+    width: 80%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40{
+    width: 40%;
+}
+/* =============== */
+
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+/* text config */
+.text-center{
+    text-align: center;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: rgba(255, 255, 255, 1) ;
+}
+.text-gray{
+    color: gray;
+}
+.text-orange{
+    color: #f4623a;
+}
+
+/* ========== */
+
+/* margin config */
+.mg-auto{
+    margin: auto;
+}
+.mgT-10{
+    margin-top: 10px;
+}
+.mgT-40{
+    margin-top: 40px;
+}
+.mgT-60{
+    margin-top: 60px;
+}
+.mgTB-100{
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+}
+.mgT-255{
+    margin-top: 255px;
+}
+
+/* ========= */
+
+/* background config */
+.bg-orange{
+    background-color: #f4623a;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-dark-white{
+    background-color: #f8f9fa;
+}
+.bg-dark{
+    background-color: rgb(33, 37, 41);
+}
+/* =============== */
