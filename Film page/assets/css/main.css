@@ -57,6 +57,9 @@ header {
 
 nav{
     position: fixed;
+    z-index: 9
+    
+    ;
     height: 10vh;
 }
 nav li{
@@ -212,4 +215,56 @@ a:hover i{
 
 /* ============= */
 
+/* youtube section */
+
+#youtube{
+    height: 80vh;
+    background-color: #06121e;
+}
+.videos{
+    height: 400px;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+
+
+/* ============= */
+
+
+/* footer */
+footer{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    background-image: url(http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/ft-bg.jpg);
+    height: 50vh;
+}footer a {
+    font-weight: 200;
+}
+.phone{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+footer input {
+    padding: 10px;
+    border: 1px solid gray;
+}
+footer input::placeholder{
+    color: gray;
+}
+footer li a{
+    color: gray;
+}
+#copyright{
+    border-top: 1px solid gray;
+    padding-top: 15px;
+}
+
+
+
+
+
+/* ============= */
 
